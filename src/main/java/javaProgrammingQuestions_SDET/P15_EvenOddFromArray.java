@@ -37,5 +37,4 @@ public class P15_EvenOddFromArray {
 				System.out.println(value);
 		}
 	}
-
 }
