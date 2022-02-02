@@ -19,7 +19,5 @@ public class P16_CheckArraysEquals {
 		{
 			System.out.println("Arrays are Not Equal");
 		}
-
 	}
-
 }
