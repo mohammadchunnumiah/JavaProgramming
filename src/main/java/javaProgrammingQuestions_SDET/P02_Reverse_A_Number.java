@@ -22,7 +22,6 @@ public class P02_Reverse_A_Number {
 		// 2. Using StringBuffer class
 		StringBuffer sb = new StringBuffer(String.valueOf(num));
 		StringBuffer rev = sb.reverse();
-
 		System.out.println("Reverse Number is: " + rev);
 
 		// 3. Using StringBuilder class
