@@ -10,7 +10,8 @@ public class P03_Reverse_A_String {
 
 		int len = str.length();
 
-		for (int i=len-1; i>=0; i--) {
+		for (int i=len-1; i>=0; i--) 
+		{
 			rev = rev + str.charAt(i);
 		}
 		System.out.println("Revered string is: " + rev);

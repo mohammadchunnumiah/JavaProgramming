@@ -1,6 +1,6 @@
 package javaProgrammingQuestions_SDET;
 
-public class P19_DuplicateElementsInArray_Looping {
+public class P19A_DuplicateElementsInArray_Looping {
 
 	public static void main(String[] args) {
 

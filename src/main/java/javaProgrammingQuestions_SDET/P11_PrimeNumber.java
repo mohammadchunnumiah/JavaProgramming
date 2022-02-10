@@ -10,7 +10,7 @@ public class P11_PrimeNumber {
 
 	public static void main(String[] args) {
 
-		int num = 4;
+		int num = 29;
 		int count = 0;
 
 		if (num > 1) 

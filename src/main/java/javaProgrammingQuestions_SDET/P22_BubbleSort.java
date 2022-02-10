@@ -16,11 +16,11 @@ public class P22_BubbleSort {
 		{
 			for (int j = 0; j <n-1; j++) // Iterations in each pass
 			{
-				if (a[j] > a[j + 1]) 
+				if (a[j] > a[j+1]) 
 				{
 					int temp = a[j];
-					a[j] = a[j + 1];
-					a[j + 1] = temp;
+					a[j] = a[j+1];
+					a[j+1] = temp;
 				}
 			}
 		}
