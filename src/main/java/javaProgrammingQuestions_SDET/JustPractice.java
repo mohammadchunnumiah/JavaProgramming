@@ -6,25 +6,17 @@ public class JustPractice {
 
 	public static void main(String[] args) {
 
-//		Scanner sc=new Scanner (System.in);
-//		System.out.println("Enter a Number");
-//		
-//		int num =sc.nextInt();
-
-
-		int n=7570;
-		int mn=n;
-		int r=0;
+		int num=29;
+		int count=0;
 		
-		while(n!=0) {
-			r=r*10 + n%10;
-			n=n/10;
+		if (num>1) 
+		{
+			for (int i=0; i<=num; i++) 
+			{
+				
+			}
 		}
-		if(mn==r) {
-			System.out.println(mn + " palindrom ");
-		}
-		else {
-			System.out.println(mn + " not palindrom ");
-		}
+		
+		
 	}
 }
