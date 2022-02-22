@@ -1,22 +1,22 @@
 package javaProgrammingQuestions_SDET;
 
-import java.util.Scanner;
-
 public class JustPractice {
 
 	public static void main(String[] args) {
 
-		int num=29;
-		int count=0;
+		int num=12345;
 		
-		if (num>1) 
-		{
-			for (int i=0; i<=num; i++) 
-			{
-				
-			}
+		int rev=0;
+		
+		while (num!=0) {
+			
+			rev=rev*10 + num%10;
+			num=num/10;
 		}
+System.out.println(rev);
 		
 		
 	}
+	
 }
+

@@ -10,7 +10,7 @@ public static void main(String[] args) {
 
 	while (num != 0) 
 	{
-		rev = rev * 10 + num % 10; 	// 0+1234%10=4  	40+3=43 	430+2=432 	4320+1=4321
+		rev = rev * 10 + num % 10; 	// 0+1234%10=4  0+123%10=3 	0+12%10=2 	0+1%10=1
 		num = num / 10; 	// 1234/10=123 	123/10=12 	12/10=1 	1/10=0
 	}
 	System.out.println("Reverse Number is: " + rev);
@@ -26,8 +26,8 @@ public static void main(String[] args) {
 // 3. Using StringBuilder class
 	int num2 = 1234;
 	StringBuilder sbl=new StringBuilder(); sbl.append(num2); 
-	StringBuilder rev2=sbl.reverse(); System.out.println("Reverse Number is: " + rev2);
-	System.out.println("Reverse Number is: " + rev);
+	StringBuilder rev2=sbl.reverse(); 
+	System.out.println("Reverse Number is: " + rev2);
 
 	}
 }

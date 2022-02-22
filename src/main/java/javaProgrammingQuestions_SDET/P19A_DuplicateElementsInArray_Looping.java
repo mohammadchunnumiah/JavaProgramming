@@ -6,7 +6,7 @@ public class P19A_DuplicateElementsInArray_Looping {
 
 		String arr[] = { "java", "C", "C++", "Python", "java" };
 
-//Approach-1
+		//Approach-1
 		boolean flag = false;
 
 		for (int i = 0; i < arr.length; i++) {

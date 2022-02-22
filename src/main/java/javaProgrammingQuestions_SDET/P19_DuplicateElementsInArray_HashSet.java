@@ -15,7 +15,7 @@ public class P19_DuplicateElementsInArray_HashSet {
 		for (String l : arr) 
 		{
 			if (langs.add(l) == false) 
-			{https://www.youtube.com/watch?list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa&v=TBxs6z8T-l8
+			{
 				System.out.println("Found duplicate element:" + l);
 				flag = true;
 			}

@@ -3,6 +3,8 @@ package javaProgrammingQuestions_SDET;
 public class P01_SwapTwoNumbers {
 
 	public static void main(String[] args) {
+
+		//Approach-1
 		int a = 10;
 		int b = 20;
 		System.out.println("Before swap the value a= " + a);
@@ -13,5 +15,19 @@ public class P01_SwapTwoNumbers {
 		System.out.println("---------------------------");
 		System.out.println("After swap the value a= " + a);
 		System.out.println("After swap the value b= " + b);
+		
+		
+		//Approach-2
+/*		int a = 10;
+		int b = 20;
+		System.out.println("Before swap the value a= " + a);
+		System.out.println("Before swap the value b= " + b);
+		int t=a;
+			a=b;
+			b=t;
+		System.out.println("---------------------------");
+		System.out.println("After swap the value a= " + a);
+		System.out.println("After swap the value b= " + b);
+		*/
 	}
 }
