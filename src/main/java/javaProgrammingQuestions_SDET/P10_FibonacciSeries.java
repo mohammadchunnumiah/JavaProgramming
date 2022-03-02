@@ -4,7 +4,11 @@ public class P10_FibonacciSeries {
 
 	public static void main(String[] args) {
 
-		int n1 = 0, n2 = 1, sum = 0;
+		// FibonacciSeries means: current number = previous two numbers (example: 1 2 3 5 8 13 21 34 ....)
+		int n1 = 0;
+		int n2 = 1;
+		
+		int sum = 0;
 
 		System.out.print(n1 + " " + n2);
 

@@ -12,7 +12,7 @@ public class P22_BubbleSort {
 
 		int n = a.length;
 
-		for (int i = 0; i < n - 1; i++) // Number of passes
+		for (int i = 0; i < n-1; i++) // Number of passes
 		{
 			for (int j = 0; j <n-1; j++) // Iterations in each pass
 			{

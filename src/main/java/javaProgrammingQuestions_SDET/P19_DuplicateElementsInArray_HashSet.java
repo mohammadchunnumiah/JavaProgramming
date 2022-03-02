@@ -6,7 +6,7 @@ public class P19_DuplicateElementsInArray_HashSet {
 
 	public static void main(String[] args) {
 
-		String arr[] = { "java", "C", "C++", "Python", "jaava" };
+		String arr[] = { "java", "C", "C++", "Python", "Python", "jaava" };
 
 		HashSet<String> langs = new HashSet();
 
@@ -16,12 +16,12 @@ public class P19_DuplicateElementsInArray_HashSet {
 		{
 			if (langs.add(l) == false) 
 			{
-				System.out.println("Found duplicate element:" + l);
+				System.out.println("Found duplicate element: " + l);
 				flag = true;
 			}
 		}
 		if (flag = false) {
-			System.out.println("Not found duplicate element:");
+			System.out.println("Not found duplicate element: ");
 		}
 
 	}
