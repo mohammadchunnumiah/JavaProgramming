@@ -5,7 +5,7 @@ public class P02_Reverse_A_Number {
 public static void main(String[] args) {
 
 // 1. Using algorithm
-	int num = 1234;
+	int num = 12345;
 	int rev = 0;
 
 	while (num != 0) 
