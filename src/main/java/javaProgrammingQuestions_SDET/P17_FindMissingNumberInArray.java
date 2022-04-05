@@ -22,7 +22,7 @@ public class P17_FindMissingNumberInArray {
 		System.out.println("Sum of elements in array: " + sum1);
 
 		int sum2 = 0;
-		for (int i = 0; i <=5; i++) 
+		for (int i = 0; i <= 5; i++)
 		{
 			sum2 = sum2 + i;
 		}

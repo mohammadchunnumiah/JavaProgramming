@@ -13,7 +13,7 @@ public class P29_ReadDataFromTextFile {
 
 		// Approach1: using FileReader & BufferReader
 
-	/*	FileReader fr = new FileReader("C:\\Users\\MiahWorkspace\\AutomationJava\\Test.txt");
+		FileReader fr = new FileReader("C:\\Users\\MiahWorkspace\\AutomationJava\\Test.txt");
 		BufferedReader br = new BufferedReader(fr);
 
 		String str;
@@ -22,11 +22,12 @@ public class P29_ReadDataFromTextFile {
 		{
 			System.out.println(str);
 		}
-		br.close();  */
+		br.close();  
+
 //===============================================================		
 		
 		//Approach2: use Scanner class
-		
+	/*	
 		File file = new File("C:\\Users\\MiahWorkspace\\AutomationJava\\Test.txt");
 		Scanner sc = new Scanner(file);
 
@@ -34,7 +35,7 @@ public class P29_ReadDataFromTextFile {
 		{
 			System.out.println(sc.nextLine());
 		} 
-		
+		*/
 
 //===============================================================	
 		
